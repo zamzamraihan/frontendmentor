@@ -29,6 +29,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./assets/images/Desktop-design.png)
+
 ![](./assets/images/Mobile-design.png)
 
 This is the screenshot of my solution.

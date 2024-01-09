@@ -39,7 +39,7 @@ body {
   gap: 1rem;
 
   background-color: var(--white);
-  width: 50vh;
+  width: 20em;
   height: auto;
   padding: 1.1rem;
   border-radius: 14px;
@@ -83,5 +83,5 @@ h2 {
 }
 
 .profile--pic {
-  width: 4vw;
+  width: 2em;
 }

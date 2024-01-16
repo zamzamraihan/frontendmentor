@@ -24,20 +24,62 @@
     <div class="card">
       <div class="left__card">
         <h3>Your Result</h3>
-        <p>76 of 100</p>
-        <h2>Great</h2>
-        <p>You scored higher than 65% of the people who have taken the test</p>
+        <div class="card__overall">
+          <h1 class="card__num">76</h1>
+          <p class="card__subnum">of 100</p>
+        </div>
+        <h2 class="card__header">Great</h2>
+        <p class="card__desc">
+          You scored higher than 65% of the people who have taken these test.
+        </p>
       </div>
       <div class="right__card">
         <h3>Summary</h3>
         <div class="card__sum">
           <ul>
-            <li>Reaction</li>
-            <li>Memory</li>
-            <li>Verbal</li>
-            <li>Visual</li>
+            <li id="react">
+              <img src="assets/images/icon-reaction.svg" alt="Reaction" />
+              <div class="stats stats--reaction">
+                <p>Reaction</p>
+                <p class="stats--number">
+                  <span class="front__num">80</span> /
+                  <span class="back__num">100</span>
+                </p>
+              </div>
+            </li>
+            <li id="memo">
+              <img src="assets/images/icon-memory.svg" alt="memory" />
+              <div class="stats stats--memory">
+                <p>Memory</p>
+                <p class="stats--number">
+                  <span class="front__num">92</span> /
+                  <span class="back__num">100</span>
+                </p>
+              </div>
+            </li>
+            <li id="verb">
+              <img src="assets/images/icon-verbal.svg" alt="verbal" />
+              <div class="stats stats--verbal">
+                <p>Verbal</p>
+                <p class="stats--number">
+                  <span class="front__num">61</span> /
+                  <span class="back__num">100</span>
+                </p>
+              </div>
+            </li>
+            <li id="visual">
+              <img src="assets/images/icon-visual.svg" alt="visual" />
+              <div class="stats stats--visual">
+                <p>Visual</p>
+                <p class="stats--number">
+                  <span class="front__num">72</span> /
+                  <span class="back__num">100</span>
+                </p>
+              </div>
+            </li>
           </ul>
         </div>
+        <button class="button" type="button">Continue</button>
       </div>
     </div>
     <footer>

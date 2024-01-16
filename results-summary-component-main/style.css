@@ -1,9 +1,16 @@
 :root {
   /* Primary */
   --light-red: hsl(0, 100%, 67%);
+  --light-red-bg: hsla(0, 100%, 67%, 0.1);
+
   --orangey-yellow: hsl(39, 100%, 56%);
+  --orangey-yellow-bg: hsla(39, 100%, 56%, 0.1);
+
   --green-teal: hsl(166, 100%, 37%);
+  --green-teal-bg: hsla(166, 100%, 37%, 0.1);
+
   --cobalt-blue: hsl(234, 85%, 45%);
+  --cobalt-blue-bg: hsla(234, 85%, 45%, 0.1);
 
   /* Background Gradients */
   --light-slate-blue: hsl(252, 100%, 67%);
@@ -36,17 +43,150 @@ body {
   align-items: center;
   width: 100%;
   height: 100vh;
+  font-size: 18px;
+  background-color: var(--light-lavender);
 }
 
 .card {
   display: flex;
-  gap: 2em;
-  width: 500px;
+  background-color: var(--white);
+  border-radius: 30px;
+  width: 600px;
+  height: 400px;
+  /* width menyesuaikan card kanan dan kiri */
 }
 
 .left__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+  gap: 25px;
+  border-radius: inherit;
+  color: var(--light-lavender);
+  width: 300px;
+  height: 400px;
+}
+
+.card__overall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(var(--violet-blue), var(--persian-blue));
+  border-radius: 50%;
+}
+
+.card__num {
+  font-size: 60px;
+  color: var(--white);
+}
+
+.card__subnum {
+  font-size: 15px;
+  color: var(--dark-gray-blue);
+}
+
+.card__header {
+  color: var(--white);
+}
+
+.card__desc {
   text-align: center;
 }
+.right__card {
+  width: 300px;
+  height: 400px;
+  padding: 30px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  display: grid;
+  gap: 20px;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+  line-height: 2;
+  padding: 1px;
+}
+
+#react {
+  color: var(--light-red);
+  background-color: var(--light-red-bg);
+}
+
+#memo {
+  color: var(--orangey-yellow);
+  background-color: var(--orangey-yellow-bg);
+}
+
+#verb {
+  color: var(--green-teal);
+  background-color: var(--green-teal-bg);
+}
+
+#visual {
+  color: var(--cobalt-blue);
+  background-color: var(--cobalt-blue-bg);
+}
+
+.stats {
+  display: flex;
+  font-size: 16px;
+}
+
+.stats--reaction {
+  gap: 65px;
+  color: var(--light-red);
+}
+
+.stats--memory {
+  gap: 67px;
+}
+
+.stats--verbal {
+  gap: 80px;
+}
+
+.stats--visual {
+  gap: 83px;
+}
+
+.stats--number {
+  color: initial;
+}
+
+.front__num {
+  font-weight: 800;
+}
+
+.back__num {
+  color: var(--green-teal);
+}
+
+.button {
+  border: 0;
+  line-height: 4;
+  text-align: center;
+  color: white;
+  background-color: rgb(60, 66, 114);
+  border-radius: 25px;
+}
+
 .attribution {
   padding: 1rem;
+}
+
+/* Breakpoint */
+
+@media (max-width: 375px) {
 }

@@ -51,8 +51,7 @@ body {
   display: flex;
   background-color: var(--white);
   border-radius: 30px;
-  width: 600px;
-  height: 400px;
+
   /* width menyesuaikan card kanan dan kiri */
 }
 
@@ -188,5 +187,8 @@ li {
 
 /* Breakpoint */
 
-@media (max-width: 375px) {
+@media screen and (max-width: 785px) {
+  .card {
+    flex-direction: column;
+  }
 }

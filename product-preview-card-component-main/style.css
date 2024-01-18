@@ -15,3 +15,32 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cream);
+  font-size: 0.875rem;
+  gap: 5px;
+  min-height: 100vh;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--White);
+  max-width: 20rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.image {
+  border-radius: inherit;
+  max-width: inherit;
+}
+
+.product__detail {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}

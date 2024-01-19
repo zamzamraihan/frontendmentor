@@ -13,7 +13,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -31,11 +30,12 @@ body {
   flex-direction: column;
   background-color: var(--White);
   max-width: 20rem;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
 }
 
 .image {
-  border-radius: inherit;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
   max-width: inherit;
 }
 
@@ -43,4 +43,20 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  gap: 10px;
+}
+
+.category {
+  letter-spacing: 5px;
+  color: var(--dark-cyan);
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+}
+
+.desc {
+  color: var(--dark-cyan);
+  font-family: "Montserrat", sans-serif;
 }

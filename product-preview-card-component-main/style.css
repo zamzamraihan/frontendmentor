@@ -33,10 +33,14 @@ body {
   border-radius: 10px;
 }
 
-.image {
+.desktop__hidden {
   border-top-right-radius: inherit;
   border-top-left-radius: inherit;
   max-width: inherit;
+}
+
+.mobile__hidden {
+  display: none;
 }
 
 .product__detail {
@@ -93,4 +97,15 @@ button {
   background-color: var(--dark-cyan);
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+}
+
+/* Breakpoint */
+@media screen and (min-width: 23.43rem) {
+  .product {
+    flex-direction: row;
+  }
+
+  .desktop__hidden {
+    display: none;
+  }
 }

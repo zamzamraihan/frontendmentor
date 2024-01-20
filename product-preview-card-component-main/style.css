@@ -57,6 +57,40 @@ h1 {
 }
 
 .desc {
-  color: var(--dark-cyan);
+  color: var(--Dark-grayis-blue);
+  font-size: 0.84rem;
   font-family: "Montserrat", sans-serif;
+}
+
+.pricing {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 0.8rem;
+}
+
+.discount {
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  color: var(--dark-cyan);
+}
+
+.price {
+  color: var(--dark-cyan);
+  text-decoration: line-through;
+  text-decoration-color: var(--dark-cyan);
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 10px;
+  background-color: var(--dark-cyan);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }

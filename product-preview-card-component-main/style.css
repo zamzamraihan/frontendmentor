@@ -21,7 +21,6 @@ body {
   justify-content: center;
   background-color: var(--cream);
   font-size: 0.875rem;
-  gap: 5px;
   min-height: 100vh;
 }
 
@@ -100,12 +99,29 @@ button {
 }
 
 /* Breakpoint */
-@media screen and (min-width: 23.43rem) {
+@media (min-width: 29.68rem) {
   .product {
     flex-direction: row;
+    max-width: rem;
+  }
+
+  .product__detail {
+    max-height: inherit;
+    padding: 30px;
+    gap: 15px;
+  }
+
+  h1 {
+    font-size: 2.3rem;
   }
 
   .desktop__hidden {
     display: none;
+  }
+
+  .mobile__hidden {
+    display: block;
+    max-height: inherit;
+    max-width: inherit;
   }
 }

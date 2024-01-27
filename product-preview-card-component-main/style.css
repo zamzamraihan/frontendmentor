@@ -24,10 +24,11 @@ body {
   min-height: 100vh;
 }
 
-c-product-card {
-  display: flex;
-  flex-direction: column;
+.c-product-card {
   background-color: var(--White);
   max-width: 20rem;
-  border-radius: 10px;
+}
+
+picture {
+  width: 10rem;
 }

@@ -27,4 +27,9 @@ body {
 .c-product-card {
   background-color: var(--White);
   max-width: 20rem;
+  line-height: 1.5;
+}
+
+.c-product-card__img {
+  width: 20rem;
 }

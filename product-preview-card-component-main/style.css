@@ -28,7 +28,3 @@ body {
   background-color: var(--White);
   max-width: 20rem;
 }
-
-picture {
-  width: 10rem;
-}

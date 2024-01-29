@@ -102,3 +102,10 @@ picture {
 button:hover {
   border: black 2px solid;
 }
+
+/* Breakkpint */
+@media screen and (min-width: 29.82rem) {
+  .c-product-card {
+    display: flex;
+  }
+}

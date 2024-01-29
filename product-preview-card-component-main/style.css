@@ -47,7 +47,7 @@ picture {
 .c-product-card__text-half {
   display: grid;
   gap: 15px;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .c-product-card__ribbon {
@@ -92,8 +92,13 @@ picture {
   border-radius: 5px;
   padding: 0.8rem;
   color: var(--White);
+  font-weight: 700;
 }
 
 .btn--primary {
   background-color: var(--dark-cyan);
+}
+
+button:hover {
+  border: black 2px solid;
 }

@@ -52,24 +52,35 @@ picture {
 
 .c-product-card__ribbon {
   font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   color: var(--dark-cyan);
 }
 .c-product-card__title {
   font-family: "Fraunces", serif;
   font-weight: 700;
+  font-size: 1.7rem;
   margin-top: 10px;
 }
 
 .c-product-card__desc {
   font-family: "Montserrat", sans-serif;
   color: var(--Dark-grayis-blue);
-  line-height: 1.5;
+  font-size: 0.75rem;
+  line-height: 1.8;
 }
 
 .c-product-card__prices {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-family: "Fraunces", sans-serif;
+  color: var(--dark-cyan);
+}
+
+.c-product-card--price {
+  font-size: 2rem;
 }
 
 .btn {
@@ -80,4 +91,9 @@ picture {
   border-style: none;
   border-radius: 5px;
   padding: 0.8rem;
+  color: var(--White);
+}
+
+.btn--primary {
+  background-color: var(--dark-cyan);
 }

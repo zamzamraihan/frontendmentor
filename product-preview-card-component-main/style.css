@@ -107,5 +107,7 @@ button:hover {
 @media screen and (min-width: 29.82rem) {
   .c-product-card {
     display: flex;
+    justify-content: center;
+    max-width: 35rem;
   }
 }
